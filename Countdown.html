@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <script>
+      function countdown() {
+        var targetDate = new Date("2023-06-01 00:00:00");
+        var currentDate = new Date();
+        var timeLeft = targetDate - currentDate;
+
+        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML = "离下一次见面还剩 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
+
+        setTimeout(countdown, 1000);
+      }
+
+      function timeSince() {
+        var startDate = new Date("2022-11-22 00:00:00");
+        var currentDate = new Date();
+        var timePassed = currentDate - startDate;
+
+        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+        
+        document.getElementById("timeSince").innerHTML = "🐰❤🐻在一起 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
+        
+        setTimeout(timeSince, 1000);
+      }
+
+        function metSince() {
+        var startDate = new Date("2022-09-29 14:21:00");
+        var currentDate = new Date();
+        var timePassed = currentDate - startDate;
+
+        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+        
+        document.getElementById("metSince").innerHTML = "🐰&🐻认识了 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
+        
+        setTimeout(metSince, 1000);
+      }
+    </script>
+  </head>
+  <body onload="countdown(); timeSince(); metSince();">
+    <div id="countdown"></div>
+    <br>
+    <div id="timeSince"></div>
+    <br>
+    <div id="metSince"></div>
+  </body>
+</html>

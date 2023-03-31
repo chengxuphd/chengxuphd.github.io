@@ -1,0 +1,194 @@
+#EXTINF:-1 tvg-id="CCTV1.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" group-title="China",CCTV-1综合 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
+#EXTINF:-1 tvg-id="CCTV1.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" group-title="General",CCTV-1综合 (576p)
+http://223.110.245.139/PLTV/4/224/3221225852/index.m3u8
+#EXTINF:-1 tvg-id="CCTV2.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/CCTV-2_Logo.svg/800px-CCTV-2_Logo.svg.png" group-title="China",CCTV-2财经 (1080p)
+http://39.134.39.39/PLTV/88888888/224/3221226220/index.m3u8
+#EXTINF:-1 tvg-id="CCTV2.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/CCTV-2_Logo.svg/800px-CCTV-2_Logo.svg.png" group-title="",CCTV-2财经 (540p)
+http://112.25.48.68/live/program/live/cctv2/1300000/mnf.m3u8
+#EXTINF:-1 tvg-id="CCTV3.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="Entertainment",CCTV-3综艺 (480p) [Not 24/7]
+http://newvideo.dangtutv.cn:8278/CCTVzongyi/playlist.m3u8
+#EXTINF:-1 tvg-id="cctv3" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="China",CCTV-3 综艺 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225647/index.m3u8
+#EXTINF:-1 tvg-id="cctv3" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="China",CCTV-3 综艺 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225634/index.m3u8
+#EXTINF:-1 tvg-id="CCTV3.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="Entertainment",CCTV-3综艺 (1080p)
+http://39.135.38.165:6610/000000001000/1000000001000011218/1.m3u8?IASHttpSessionId=OTT16157620200202041417014267&fmt=ts2hls&u=45768392
+#EXTINF:-1 tvg-id="CCTV3.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="Entertainment",CCTV-3综艺 (1080p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=80&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="CCTV3.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/34/CCTV-3_Logo.png" group-title="Entertainment",CCTV-3综艺 (1080p) [Not 24/7]
+http://183.207.248.71/cntv/live1/cctv-3/cctv-3
+#EXTINF:-1 tvg-id="CCTV4.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/07/CCTV-4_Logo.svg/800px-CCTV-4_Logo.svg.png" group-title="China",CCTV-4中文国际 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225621/index.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/33/CCTV-5_Logo.png" group-title="China",CCTV-5体育 (1080p)
+http://39.134.39.39/PLTV/88888888/224/3221226224/index.m3u8
+#EXTINF:-1 tvg-id="CCTV5.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/3/33/CCTV-5_Logo.png" group-title="Sports",CCTV-5体育 (360p)
+http://cctvalih5ca.v.myalicdn.com/live/cctv5_2/index.m3u8
+#EXTINF:-1 tvg-id="CCTV5Plus.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CCTV-5+体育赛事 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225507/index.m3u8
+#EXTINF:-1 tvg-id="CCTV6.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0c/CCTV-6_Logo.png" group-title="China",CCTV-6电影 (1080p)
+http://39.134.39.39/PLTV/88888888/224/3221226226/index.m3u8
+#EXTINF:-1 tvg-id="CCTV7.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/f0/CCTV-7_Logo.png" group-title="China",CCTV-7国防军事 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225671/index.m3u8
+#EXTINF:-1 tvg-id="CCTV8.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png" group-title="China",CCTV-8电视剧 (1080p)
+http://39.134.39.39/PLTV/88888888/224/3221226257/index.m3u8
+#EXTINF:-1 tvg-id="CCTV9.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/1/11/CCTV-9_Logo.png" group-title="China",CCTV-9纪录 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225646/index.m3u8
+#EXTINF:-1 tvg-id="CCTV10.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/f/fd/CCTV-10_Logo.png" group-title="China",CCTV-10科教 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225677/index.m3u8
+#EXTINF:-1 tvg-id="CCTV11.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9c/CCTV-11_Logo.png" group-title="China",CCTV-11戏曲 (1080p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225628/index.m3u8
+#EXTINF:-1 tvg-id="CCTV12.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/7/71/CCTV-12_Logo.png" group-title="China",CCTV-12社会与法制 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 tvg-id="CCTV13.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png" group-title="China",CCTV-13新闻 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8
+#EXTINF:-1 tvg-id="CCTV13.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png" group-title="News",CCTV-13新闻 (576p)
+http://stream4.jlntv.cn/cctv13/sd/live.m3u8
+#EXTINF:-1 tvg-id="CCTV13.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png" group-title="News",CCTV-13新闻 (540p)
+http://112.25.48.68/live/program/live/cctvxw/1300000/mnf.m3u8
+#EXTINF:-1 tvg-id="CCTV13.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png" group-title="News",CCTV-13新闻 (360p)
+http://cctvalih5ca.v.myalicdn.com/live/cctv13_2/index.m3u8
+#EXTINF:-1 tvg-id="CCTV15.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CCTV-15音乐 (720p)
+http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=54&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="CCTV17.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CCTV-17农业农村 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225908/index.m3u8
+#EXTINF:-1 tvg-id="CCTVLaoGuShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CCTV-老故事 (576p)
+http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227043/index.m3u8
+#EXTINF:-1 tvg-id="douyu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",爱情公寓
+http://dyscdnali1.douyucdn.cn/live/9638983rxIqZcW50.flv?uuid=
+#EXTINF:-1 tvg-id="NewTVWanMeiYouXi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",NewTV完美遊戲 (1080p)
+http://183.207.249.16/PLTV/3/224/3221225539/index.m3u8
+#EXTINF:-1 tvg-id="SiTVYouXiFengYun.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",SiTV游戏风云 (1080p)
+http://112.25.48.68/live/program/live/yxfyhd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="douyu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",户外纪录片
+http://dyscdnali1.douyucdn.cn/live/454867r21IwiTfz6.flv?uuid=
+#EXTINF:-1 tvg-id="AnHuiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567b9d7479d83.png" group-title="",安徽卫视 (576p)
+http://183.207.248.71/gitv/live1/AHWS/AHWS
+#EXTINF:-1 tvg-id="AnHuiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567b9d7479d83.png" group-title="",安徽卫视 (576p)
+http://183.207.249.5/PLTV/4/224/3221225800/index.m3u8
+#EXTINF:-1 tvg-id="AnHuiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567b9d7479d83.png" group-title="China",安徽卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225691/index.m3u8
+#EXTINF:-1 tvg-id="AnHuiRenWu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/ahrw.jpg" group-title="China",安徽人物 (480p) [Not 24/7]
+http://149.129.100.78/anhui.php?id=69
+#EXTINF:-1 tvg-id="AnHuiGongGong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/ahgg.jpg" group-title="China",安徽公共 (480p) [Not 24/7]
+http://149.129.100.78/anhui.php?id=50
+#EXTINF:-1 tvg-id="AnHuiNongYeKeJiao.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/ahkj.jpg" group-title="China",安徽农业科教 (480p) [Not 24/7]
+http://149.129.100.78/anhui.php?id=51
+#EXTINF:-1 tvg-id="AnHuiYingShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/anhys.jpg" group-title="China",安徽影视 (480p) [Not 24/7]
+http://149.129.100.78/anhui.php?id=72
+#EXTINF:-1 tvg-id="AnHuiZongYiTiYu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/ahzy.jpg" group-title="China",安徽综艺体育 (480p) [Not 24/7]
+http://149.129.100.78/anhui.php?id=73
+#EXTINF:-1 tvg-id="WuHuGongGong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",芜湖公共 (576p)
+http://live1.wuhubtv.com/channel3/sd/live.m3u8
+#EXTINF:-1 tvg-id="WuHuXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",芜湖新闻综合 (576p)
+http://live1.wuhubtv.com/channel1/sd/live.m3u8
+#EXTINF:-1 tvg-id="WuHuShengHuo.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",芜湖生活 (576p)
+http://live1.wuhubtv.com/channel2/sd/live.m3u8
+#EXTINF:-1 tvg-id="BeiJingWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/bjbtv.jpg" group-title="China",北京卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8
+#EXTINF:-1 tvg-id="DongFangWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/dongfang.jpg" group-title="China",东方卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225672/index.m3u8
+#EXTINF:-1 tvg-id="NanJingXinXi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",南京信息 (720p)
+http://live.nbs.cn/channels/njtv/xxpd/m3u8:500k/live.m3u8
+#EXTINF:-1 tvg-id="NanJingXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",南京新闻综合 (1080p)
+http://live.nbs.cn/channels/njtv/xwzh/m3u8:500k/live.m3u8
+#EXTINF:-1 tvg-id="NanFangWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/nanfang.png" group-title="China",南方卫视 (576p)
+http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=9&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="JiLinWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="China",吉林卫视 (720p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=25&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="SiChuanWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201511/20/564ebb7c2f272.png" group-title="China",四川卫视 (1080p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=3&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="TianJinWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/TJWS.png" group-title="China",天津卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225665/index.m3u8
+#EXTINF:-1 tvg-id="NingXiaWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",宁夏卫视 (576p)
+http://39.134.65.162/PLTV/88888888/224/3221225579/index.m3u8
+#EXTINF:-1 tvg-id="ShanDongWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201511/20/564eb79891a97.png" group-title="China",山东卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
+#EXTINF:-1 tvg-id="ShanXiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",山西卫视 (576p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225730/index.m3u8
+#EXTINF:-1 tvg-id="GuangDongWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="China",广东卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225701/index.m3u8
+#EXTINF:-1 tvg-id="GuangXiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",广西卫视 (576p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225731/index.m3u8
+#EXTINF:-1 tvg-id="YanBianWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/YANBIAN1.png" group-title="China",延边卫视 (720p)
+http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
+#EXTINF:-1 tvg-id="JiangSuWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567b9d2aaed87.png" group-title="China",江苏卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225503/index.m3u8
+#EXTINF:-1 tvg-id="JiangXiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201511/20/564ebc704917e.png" group-title="China",江西卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
+#EXTINF:-1 tvg-id="HeBeiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",河北卫视 (1080p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=45&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="HeNanWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201511/20/564ebd72d9f07.png" group-title="China",河南卫视 (576p)
+http://117.169.124.37:6610/ysten-businessmobile/live/henanstv/yst.m3u8
+#EXTINF:-1 tvg-id="ZheJiangWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="China",浙江卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225514/index.m3u8
+#EXTINF:-1 tvg-id="ShenZhenWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",深圳卫视 (1080p)
+http://39.134.39.39/PLTV/88888888/224/3221226199/index.m3u8
+#EXTINF:-1 tvg-id="HuBeiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201706/26/59506de1abb41.png" group-title="China",湖北卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225569/index.m3u8
+#EXTINF:-1 tvg-id="HuNanWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/HNWS.png" group-title="China",湖南卫视 (1080p)
+http://39.134.66.66/PLTV/88888888/224/3221225506/index.m3u8
+#EXTINF:-1 tvg-id="SuZhouDianShiTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/WcPcluo.png" group-title="China",肃州卫视 (1080p)
+http://117.156.28.119/270000001111/1110000123/index.m3u8
+#EXTINF:-1 tvg-id="LiaoNingWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/liaoning.jpg" group-title="China",辽宁卫视 (1080p)
+http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
+#EXTINF:-1 tvg-id="ChongQingWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://parco-zh.github.io/demo/chongqing.jpg" group-title="China",重庆卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225692/index.m3u8
+#EXTINF:-1 tvg-id="ShanXiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",陕西卫视 (576p)
+http://39.134.66.66/PLTV/88888888/224/3221225567/index.m3u8
+#EXTINF:-1 tvg-id="QingHaiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567bbf299dfa0.png" group-title="China",青海卫视 (1080p)
+http://live.geermurmt.com/qhws/sd/live.m3u8
+#EXTINF:-1 tvg-id="HeiLongJiangWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://s.wasu.cn/data/images/201512/24/567b9d67870b3.png" group-title="China",黑龙江卫视 (1080p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225690/index.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus1.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CGTV+ 1 (720p)
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus2.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CGTV+ 2 (720p)
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CETV1.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CETV1 (576p)
+http://183.207.248.71/gitv/live1/G_CETV-1/G_CETV-1
+#EXTINF:-1 tvg-id="CETV2.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CETV2 (576p)
+http://183.207.248.71/gitv/live1/G_CETV-2/G_CETV-2
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-country="CN" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="China",CGTN (576p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=14&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn" tvg-country="CN" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/CGTN_Documentary_logo.png" group-title="China",CGTN Documentary (576p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
+#EXTINF:-1 tvg-id="CGTNEnglish.cn" tvg-country="CN" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="China",CGTN English (720p) [Not 24/7]
+https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
+#EXTINF:-1 tvg-id="CGTNEspanol.cn" tvg-country="CN" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="China",CGTN Español (576p)
+http://livees.cgtn.com/500e/prog_index.m3u8
+#EXTINF:-1 tvg-id="CGTNFrancais.cn" tvg-country="CN" tvg-language="French" tvg-logo="" group-title="China",CGTN Français (720p)
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+#EXTINF:-1 tvg-id="CGTNJiLu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CGTN纪录 (576p)
+http://39.134.66.66/PLTV/88888888/224/3221225509/index.m3u8
+#EXTINF:-1 tvg-id="CHCDongZuoDianYing.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CHC动作电影 (1080p)
+http://116.199.5.51:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=119&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="CNCZhongWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",CNC中文 (720p) [Not 24/7]
+http://source07.v.news.cn/live/CNC_CN/playlist.m3u8
+#EXTINF:-1 tvg-id="CNCYingYu.cn" tvg-country="CN" tvg-language="English" tvg-logo="" group-title="China",CNC英语 (720p)
+http://source07.v.news.cn/live/CNC_EN/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBMingZhuTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",TVB 明珠台 (240p)
+http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=12?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=12&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_rate_id=2&FvSeid=1&Pcontent_id=8114.m3u8&Provider_id=0
+#EXTINF:-1 tvg-id="TVBMingZhuTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",TVB明珠台 (576p)
+http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=12&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+#EXTINF:-1 tvg-id="TVBFeiCuiTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",TVB翡翠台
+http://116.199.5.51:8114/index.m3u8?Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+#EXTINF:-1 tvg-id="QuanJiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",全纪实 (1080p)
+http://183.207.255.190/live/program/live/qjshd/4000000/mnf.m3u8
+#EXTINF:-1 tvg-id="FengHuangZhongWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",凤凰中文 (720p)
+http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8
+#EXTINF:-1 tvg-id="FengHuangZiXun.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",凤凰资讯 (720p)
+http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8
+#EXTINF:-1 tvg-id="FengHuangXiangGang.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",凤凰香港 (720p)
+http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8
+#EXTINF:-1 tvg-id="DongZuoDianYing.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",动作电影 (1080p)
+http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
+#EXTINF:-1 tvg-id="GaoQingDianYing.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",高清电影 (1080p)
+http://39.134.19.76/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
+#EXTINF:-1 tvg-id="HongNiuREDBULLTV.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",红牛REDBULL TV (720p)
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+#EXTINF:-1 tvg-id="JiShiRenWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",纪实人文 (1080p)
+http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
+#EXTINF:-1 tvg-id="ChunXiang4K.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",纯享4K (2160p)
+http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
+#EXTINF:-1 tvg-id="MeiGuoGouGouChongWu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="China",美国狗狗宠物 (720p)
+http://video.blivenyc.com/broadcast/prod/2061/22/file-3192k.m3u8
