@@ -1,57 +1,98 @@
 <html>
   <head>
-    <script>
-      function countdown() {
-        var targetDate = new Date("2023-06-01 00:00:00");
-        var currentDate = new Date();
-        var timeLeft = targetDate - currentDate;
-
-        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-        document.getElementById("countdown").innerHTML = "离下一次见面还剩 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
-
-        setTimeout(countdown, 1000);
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 20px;
       }
+      h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-container {
+    margin-bottom: 40px;
+  }
+  
+  .countdown-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .countdown-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .emoji {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+</style>
+<script>
+  function countdown() {
+    var targetDate = new Date("2023-07-12 00:00:00");
+    var currentDate = new Date();
+    var timeLeft = targetDate - currentDate;
 
-      function timeSince() {
-        var startDate = new Date("2022-11-22 00:00:00");
-        var currentDate = new Date();
-        var timePassed = currentDate - startDate;
+    var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
-        
-        document.getElementById("timeSince").innerHTML = "🐰❤🐻在一起 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
-        
-        setTimeout(timeSince, 1000);
-      }
+    document.getElementById("countdown").innerHTML = "<span class='countdown-label'>离下一次见面还剩</span><br>" +
+                                                     "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
 
-        function metSince() {
-        var startDate = new Date("2022-09-29 14:21:00");
-        var currentDate = new Date();
-        var timePassed = currentDate - startDate;
+    setTimeout(countdown, 1000);
+  }
 
-        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
-        
-        document.getElementById("metSince").innerHTML = "🐰&🐻认识了 " + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
-        
-        setTimeout(metSince, 1000);
-      }
-    </script>
-  </head>
-  <body onload="countdown(); timeSince(); metSince();">
+  function timeSince() {
+    var startDate = new Date("2022-11-22 00:00:00");
+    var currentDate = new Date();
+    var timePassed = currentDate - startDate;
+
+    var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+    
+    document.getElementById("timeSince").innerHTML = "<span class='countdown-label'>🐰❤🐻在一起</span><br>" +
+                                                      "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
+    
+    setTimeout(timeSince, 1000);
+  }
+
+  function metSince() {
+    var startDate = new Date("2022-09-29 14:21:00");
+    var currentDate = new Date();
+    var timePassed = currentDate - startDate;
+
+    var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+    
+    document.getElementById("metSince").innerHTML = "<span class='countdown-label'>🐰&🐻认识了</span><br>" +
+                                                    "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
+    
+    setTimeout(metSince, 1000);
+  }
+</script>
+</head>
+<body onload="countdown(); timeSince(); metSince();">
+  <h1>欢迎来到🐰&🐻的小世界！</h1>
+  <div class="countdown-container">
     <div id="countdown"></div>
-    <br>
+  </div>
+  <div class="countdown-container">
     <div id="timeSince"></div>
-    <br>
+  </div>
+  <div class="countdown-container">
     <div id="metSince"></div>
-  </body>
+  </div>
+</body>
 </html>
