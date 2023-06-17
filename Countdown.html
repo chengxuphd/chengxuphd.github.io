@@ -1,5 +1,7 @@
 <html>
   <head>
+    <title>Bunny & Bear - Homepage</title>
+    <link rel="icon" href="img/icon.png" sizes="24x24">
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -7,92 +9,155 @@
         text-align: center;
         padding: 20px;
       }
+      
       h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .countdown-container {
-    margin-bottom: 40px;
-  }
-  
-  .countdown-label {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .countdown-value {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .emoji {
-    font-size: 48px;
-    margin-bottom: 10px;
-  }
-</style>
-<script>
-  function countdown() {
-    var targetDate = new Date("2023-07-12 00:00:00");
-    var currentDate = new Date();
-    var timeLeft = targetDate - currentDate;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      .countdown-container {
+        margin-bottom: 40px;
+      }
+      
+      .countdown-label {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        animation: fadeIn 1s ease-in;
+      }
+      
+      .countdown-value {
+        font-size: 18px;
+        font-weight: bold;
+        animation: scaleUp 1s ease-in;
+      }
+      
+      .emoji {
+        font-size: 48px;
+        margin-bottom: 10px;
+        animation: rotate 1s infinite linear;
+      }
+      
+      .thumbnail {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        display: inline-block;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      @keyframes scaleUp {
+        0% {
+          transform: scale(0);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      /* Blink animation */
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      /* Apply blink animation to countdown */
+      .countdown-blink {
+        animation: blink 1s infinite;
+      }
+    </style>
+    <script>
+      function countdown() {
+        var targetDate = new Date("2023-07-12 00:00:00");
+        var currentDate = new Date();
+        var timeLeft = targetDate - currentDate;
 
-    var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+        var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown").innerHTML = "<span class='countdown-label'>离下一次见面还剩</span><br>" +
-                                                     "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
+        document.getElementById("countdown").innerHTML = "<span class='countdown-label'>离下一次见面还剩</span><br>" +
+                                                         "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
 
-    setTimeout(countdown, 1000);
-  }
+        setTimeout(countdown, 1000);
+      }
 
-  function timeSince() {
-    var startDate = new Date("2022-11-22 00:00:00");
-    var currentDate = new Date();
-    var timePassed = currentDate - startDate;
+      function timeSince() {
+        var startDate = new Date("2022-11-22 00:00:00");
+        var currentDate = new Date();
+        var timePassed = currentDate - startDate;
 
-    var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
-    
-    document.getElementById("timeSince").innerHTML = "<span class='countdown-label'>🐰❤🐻在一起</span><br>" +
-                                                      "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
-    
-    setTimeout(timeSince, 1000);
-  }
+        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+        
+        document.getElementById("timeSince").innerHTML = "<span class='countdown-label'>🐰❤🐻在一起</span><br>" +
+                                                          "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
+        
+        setTimeout(timeSince, 1000);
+      }
 
-  function metSince() {
-    var startDate = new Date("2022-09-29 14:21:00");
-    var currentDate = new Date();
-    var timePassed = currentDate - startDate;
+      function metSince() {
+        var startDate = new Date("2022-09-29 14:21:00");
+        var currentDate = new Date();
+        var timePassed = currentDate - startDate;
 
-    var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
-    
-    document.getElementById("metSince").innerHTML = "<span class='countdown-label'>🐰&🐻认识了</span><br>" +
-                                                    "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
-    
-    setTimeout(metSince, 1000);
-  }
-</script>
-</head>
-<body onload="countdown(); timeSince(); metSince();">
-  <h1>欢迎来到🐰&🐻的小世界！</h1>
-  <div class="countdown-container">
-    <div id="countdown"></div>
-  </div>
-  <div class="countdown-container">
-    <div id="timeSince"></div>
-  </div>
-  <div class="countdown-container">
-    <div id="metSince"></div>
-  </div>
-</body>
+        var days = Math.floor(timePassed / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timePassed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timePassed % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timePassed % (1000 * 60)) / 1000);
+        
+        document.getElementById("metSince").innerHTML = "<span class='countdown-label'>🐰&🐻认识了</span><br>" +
+                                                        "<span class='countdown-value'>" + days + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒</span>";
+        
+        setTimeout(metSince, 1000);
+      }
+    </script>
+  </head>
+  <body onload="countdown(); timeSince(); metSince();">
+    <h1>欢迎来到🐰&🐻的小世界！！！<hr></h1>
+    <div class="countdown-container">
+      <div id="countdown" class="animated-text"></div>
+    </div>
+    <div class="countdown-container">
+      <div id="timeSince" class="animated-text"></div>
+    </div>
+    <div class="countdown-container">
+      <div id="metSince" class="animated-text"></div>
+    </div>
+    <h2><hr>🐰&🐻</h2>
+    <div class="thumbnails-container">
+      <img src="img/ajax-loader.gif" alt="Thumbnail 1" class="thumbnail" />
+      <img src="img/ajax-loader.gif" alt="Thumbnail 2" class="thumbnail" />
+      <img src="img/ajax-loader.gif" alt="Thumbnail 3" class="thumbnail" />
+    </div>
+  </body>
 </html>
