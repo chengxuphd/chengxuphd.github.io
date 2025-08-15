@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheng Xu</title>
+    <link rel="icon" type="image/x-icon" href="img/rabbit.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="profile-section">
+                    <img src="img/profile.png" alt="Cheng Xu" class="profile-photo">
+                    <div class="profile-info">
+                        <h1>Cheng Xu</h1>
+                        <p class="position">PhD Student, Computer Science</p>
+                        <p class="institution">University College Dublin</p>
+                        <div class="contact-links">
+                            <a href="mailto:xucheng19991201@gmail.com">Email</a>
+                            <a href="https://scholar.google.com/citations?user=e5yNfrwAAAAJ">Google Scholar</a>
+                            <a href="https://www.linkedin.com/in/chengxuphd/">Linkedin</a>
+                            <a href="https://github.com/chengxuphd">GitHub</a>
+                            <a href="file/Cheng_Xu_CV.pdf">CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="about">
+            <p>
+                I am a PhD student at University College Dublin and the Insight SFI Research Centre for Data Analytics, 
+                working with Prof. <a href="https://people.ucd.ie/tahar.kechadi" target="_blank">M-Tahar Kechadi</a>. My research 
+                focuses on multimodal fuzzy systems for fake news detection, leveraging deep learning to combat misinformation.
+                My work explores the intersection of natural language processing, deep learning, and information verification. 
+                I have published in prestigious venues including ACL, EMNLP, and CoNLL.
+            </p>
+        </section>
+
+        <section class="research">
+            <h2>Research</h2>
+            <p class="research-statement">
+                My research centers on developing robust methods for detecting and combating misinformation in the digital age. 
+                I work at the intersection of natural language processing, deep learning, and information verification to build 
+                systems that can understand and analyze complex information across different modalities. Additionally, I am also
+                interested in the safety, fairness, and evaluation of LLMs, as well as their application in the financial sector.
+            </p>
+            <ul class="research-interests">
+                <li><strong>Fake News Detection:</strong> Developing fuzzy deep learning systems that integrate multimodal signals to identify misinformation with high accuracy. My work focuses on creating interpretable models that can explain their detection decisions, especially for the LLMs.</li>
+                <li><strong>LLM Safety, Fairness, and Evaluation:</strong> Investigating how training data and its internal reasoning mechanisms affects LLM safety, fairness and evaluation, particularly in fake news detection tasks.</li>
+                <li><strong>Financial LLMs:</strong> Applying LLMs to the financial sector, including integrating information systems such as news into the LLM decision-making process. Further exploring the potential of LLMs in financial market analysis, investment, etc.</li>
+            </ul>
+        </section>
+
+        <section class="news">
+            <h2>News</h2>
+            <div class="news-list" id="newsList">
+                <div class="news-item">
+                    <span class="news-date">May 2025</span>
+                    <p>Two papers accepted to ACL 2025</p>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Sep 2024</span>
+                    <p>Two papers accepted to EMNLP 2024 & CoNLL 2024</p>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Jun 2024</span>
+                    <p>Ours survey on Benchmark Data Contamination (BDC) released on <a href="https://arxiv.org/abs/2406.04244" target="_blank">arXiv</a></p>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Jun 2024</span>
+                    <p>Our paper on fake news detection published in IEEE Access</p>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Oct 2023</span>
+                    <p>Our first paper on fake news detection accepted to SOICT 2023</p>
+                </div>
+                <div class="news-item collapsed">
+                    <span class="news-date">Mar 2023</span>
+                    <p>AROT-COV23 dataset paper accepted to AfricaNLP@ICLR 2023</p>
+                </div>
+                <div class="news-item collapsed">
+                    <span class="news-date">Sep 2022</span>
+                    <p>I started my PhD at the UCD School of Computer Science</p>
+                </div>
+            </div>
+            <button class="toggle-btn" onclick="toggleNews()">Show more</button>
+        </section>
+
+        <section class="publications">
+            <h2>Selected Publications</h2>
+            <p class="section-note">See <a href="https://scholar.google.com/citations?user=e5yNfrwAAAAJ">Google Scholar</a> for full list</p>
+            
+            <div class="pub-list" id="pubList">
+                <div class="pub-item">
+                    <span class="pub-year">2025</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.18653/v1/2025.acl-long.431" target="_blank">TripleFact: Defending Data Contamination in the Evaluation of LLM-driven Fake News Detection</a></p>
+                        <p class="pub-authors"><strong>Cheng Xu</strong>, Nan Yan</p>
+                        <p class="pub-venue">ACL 2025</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item">
+                    <span class="pub-year">2025</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.18653/v1/2025.acl-long.749" target="_blank">PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy</a></p>
+                        <p class="pub-authors">Shuhao Guan, Moule Lin, <strong>Cheng Xu</strong>, et al.</p>
+                        <p class="pub-venue">ACL 2025</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item">
+                    <span class="pub-year">2024</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.18653/v1/2024.emnlp-main.862" target="_blank">Effective Synthetic Data and Test-Time Adaptation for OCR Correction</a></p>
+                        <p class="pub-authors">Shuhao Guan, <strong>Cheng Xu</strong>, Moule Lin, Derek Greene</p>
+                        <p class="pub-venue">EMNLP 2024</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item">
+                    <span class="pub-year">2024</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.18653/v1/2024.conll-1.39" target="_blank">Advancing Arabic Sentiment Analysis: ArSen Benchmark and the Improved Fuzzy Deep Hybrid Network</a></p>
+                        <p class="pub-authors">Yang Fan, <strong>Cheng Xu</strong>, Shuhao Guan, et al.</p>
+                        <p class="pub-venue">CoNLL 2024</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item">
+                    <span class="pub-year">2024</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.1109/ACCESS.2024.3418340" target="_blank">An Enhanced Fake News Detection System with Fuzzy Deep Learning</a></p>
+                        <p class="pub-authors"><strong>Cheng Xu</strong>, M-Tahar Kechadi</p>
+                        <p class="pub-venue">IEEE Access</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item collapsed">
+                    <span class="pub-year">2023</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.1145/3628797.3628971" target="_blank">Fuzzy Deep Hybrid Network for Fake News Detection</a></p>
+                        <p class="pub-authors"><strong>Cheng Xu</strong>, M-Tahar Kechadi</p>
+                        <p class="pub-venue">SOICT 2023</p>
+                    </div>
+                </div>
+                
+                <div class="pub-item collapsed">
+                    <span class="pub-year">2022</span>
+                    <div class="pub-content">
+                        <p class="pub-title"><a href="https://doi.org/10.5114/aoms/135594" target="_blank">Prediction of prognosis and survival of patients with gastric cancer by a weighted improved random forest model</a></p>
+                        <p class="pub-authors"><strong>Cheng Xu</strong>, Jing Wang, et al.</p>
+                        <p class="pub-venue">Archives of Medical Science</p>
+                    </div>
+                </div>
+            </div>
+            <button class="toggle-btn" onclick="togglePublications()">Show more</button>
+        </section>
+
+        <section class="teaching">
+            <h2>Teaching</h2>
+            <div class="teaching-header">
+                <span>TA/Demonstrator @ University College Dublin</span>
+                <span>2023 - Present</span>
+            </div>
+            <p class="teaching-responsibilities">Responsibilities include conducting lab sessions, grading assignments, and providing student support for 100+ students per semester.</p>
+            
+            <ul class="course-list-detailed" id="teachingList">
+                <li><strong>COMP40370</strong> - Data Mining <span class="semesters">(Fall 2023, Fall 2024, Fall 2025)</span></li>
+                <li><strong>COMP47780</strong> - Cloud Computing <span class="semesters">(Fall 2023, Fall 2024)</span></li>
+                <li><strong>COMP47650</strong> - Deep Learning <span class="semesters">(Spring 2024, Spring 2025)</span></li>
+                <li><strong>COMP47980</strong> - Generative AI: Language Models <span class="semesters">(Spring 2024, Spring 2025)</span></li>
+                <li><strong>COMP10040</strong> - Introduction to Computer Architecture <span class="semesters">(Fall 2023, Fall 2024)</span></li>
+                <li class="collapsed"><strong>COMP10050</strong> - Software Engineering Project 1 <span class="semesters">(Spring 2025)</span></li>
+                <li class="collapsed"><strong>COMP20280</strong> - Data Structures <span class="semesters">(Spring 2025)</span></li>
+                <li class="collapsed"><strong>COMP41680</strong> - Data Science in Python <span class="semesters">(Spring 2025)</span></li>
+                <li class="collapsed"><strong>COMP30760</strong> - Data Science in Python <span class="semesters">(Fall 2024)</span></li>
+                <li class="collapsed"><strong>COMP40610</strong> - Information Visualisation <span class="semesters">(Fall 2024)</span></li>
+                <li class="collapsed"><strong>COMP10120</strong> - Computer Programming II <span class="semesters">(Spring 2024)</span></li>
+                <li class="collapsed"><strong>COMP20230</strong> - Data Structure & Algorithms (Conv) <span class="semesters">(Spring 2024)</span></li>
+                <li class="collapsed"><strong>COMP47580</strong> - Recommender Systems & Collective Intelligence <span class="semesters">(Spring 2024)</span></li>
+                <li class="collapsed"><strong>COMP47590</strong> - Advanced Machine Learning <span class="semesters">(Spring 2024)</span></li>
+            </ul>
+            <button class="toggle-btn" onclick="toggleTeaching()">Show more</button>
+        </section>
+
+        <section class="service">
+            <h2>Academic Service</h2>
+            <p><strong>Conference Reviewer:</strong> NeurIPS, ICLR, ICML, AAAI, AISTATS</p>
+            <p><strong>Journal Reviewer:</strong> Archives of Medical Science</p>
+        </section>
+
+        <footer>
+            <p>© 2025 Cheng Xu · Last updated August 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleNews() {
+            const newsList = document.getElementById('newsList');
+            const btn = event.target;
+            const collapsed = newsList.querySelectorAll('.news-item.collapsed');
+            
+            if (btn.textContent === 'Show more') {
+                collapsed.forEach(item => item.classList.remove('collapsed'));
+                btn.textContent = 'Show less';
+            } else {
+                const allItems = newsList.querySelectorAll('.news-item');
+                allItems.forEach((item, index) => {
+                    if (index >= 5) item.classList.add('collapsed');
+                });
+                btn.textContent = 'Show more';
+            }
+        }
+
+        function togglePublications() {
+            const pubList = document.getElementById('pubList');
+            const btn = event.target;
+            const collapsed = pubList.querySelectorAll('.pub-item.collapsed');
+            
+            if (btn.textContent === 'Show more') {
+                collapsed.forEach(item => item.classList.remove('collapsed'));
+                btn.textContent = 'Show less';
+            } else {
+                const allItems = pubList.querySelectorAll('.pub-item');
+                allItems.forEach((item, index) => {
+                    if (index >= 5) item.classList.add('collapsed');
+                });
+                btn.textContent = 'Show more';
+            }
+        }
+
+        function toggleTeaching() {
+            const teachingList = document.getElementById('teachingList');
+            const btn = event.target;
+            const collapsed = teachingList.querySelectorAll('li.collapsed');
+            
+            if (btn.textContent === 'Show more') {
+                collapsed.forEach(item => item.classList.remove('collapsed'));
+                btn.textContent = 'Show less';
+            } else {
+                const allItems = teachingList.querySelectorAll('li');
+                allItems.forEach((item, index) => {
+                    if (index >= 5) item.classList.add('collapsed');
+                });
+                btn.textContent = 'Show more';
+            }
+        }
+    </script>
+</body>
+</html>
